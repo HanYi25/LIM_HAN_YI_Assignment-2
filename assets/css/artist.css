@@ -1,0 +1,59 @@
+.artist-shell {
+  max-width: 50rem;
+  text-align: center;
+}
+
+.section-intro {
+  margin-bottom: 2.5rem;
+}
+
+.artist-gateway {
+  display: grid;
+  gap: 1rem;
+}
+
+.gateway-panel {
+  display: block;
+  padding: 2.5rem 2rem;
+  text-align: left;
+  border: 1px solid rgba(242, 236, 228, 0.1);
+  transition: transform 0.28s ease, box-shadow 0.28s ease;
+}
+
+.gateway-panel:hover,
+.gateway-panel:focus-visible {
+  transform: scale(1.02);
+  color: #f2ece4;
+}
+
+.gateway-music {
+  background: linear-gradient(135deg, #141414 0%, #1a1012 100%);
+}
+
+.gateway-art {
+  background: linear-gradient(135deg, #141414 0%, #12141a 100%);
+}
+
+.gateway-label {
+  font-size: 0.62rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--accent-wine);
+}
+
+.gateway-panel h2 {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+  color: #f2ece4;
+}
+
+.gateway-panel p {
+  margin: 0;
+  font-size: 0.88rem;
+}
+
+@media (min-width: 640px) {
+  .artist-gateway {
+    grid-template-columns: 1fr 1fr;
+  }
+}
