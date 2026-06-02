@@ -1,0 +1,78 @@
+.index-main {
+  text-align: center;
+}
+
+.hero {
+  max-width: 38rem;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+  border: 1px solid rgba(242, 236, 228, 0.08);
+  background: linear-gradient(145deg, rgba(20, 20, 20, 0.9), rgba(10, 10, 10, 0.95));
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.45);
+}
+
+.hero-eyebrow {
+  font-size: 0.62rem;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--accent-wine);
+  margin-bottom: 1rem;
+}
+
+.hero-tagline {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 1.35rem;
+  font-style: italic;
+  color: #f2ece4;
+  margin-bottom: 1.25rem;
+}
+
+.hero-body {
+  font-size: 0.88rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+  justify-content: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.75rem;
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  transition: background 0.28s ease, border-color 0.28s ease, color 0.28s ease;
+}
+
+.btn-primary {
+  background: var(--accent-wine);
+  border-color: var(--accent-wine);
+  color: #f2ece4;
+}
+
+.btn-primary:hover,
+.btn-primary:focus-visible {
+  background: var(--accent-wine-hover);
+  border-color: var(--accent-wine-hover);
+  color: #f2ece4;
+}
+
+.btn-ghost {
+  background: transparent;
+  border-color: rgba(242, 236, 228, 0.25);
+  color: #f2ece4;
+}
+
+.btn-ghost:hover,
+.btn-ghost:focus-visible {
+  border-color: var(--accent-wine);
+  color: #f2ece4;
+}
+
